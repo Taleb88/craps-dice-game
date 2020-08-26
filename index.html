@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <canvas id="canvas" width="800" height="400">
+    </canvas>
+
+    <form name="form">
+        <label><b>Stage:</b></label>
+        <input name="stage" value="First Throw">
+        <label><b>Points:</b></label>
+        <input name="point" value=" ">
+        <label><b>Result:</b></label>
+        <input name="result" value=" ">
+        <label><b>$:</b></label>
+        <input name="money" value="250" />
+    </form>
+    <button onclick="throwDice()">Play - Throw Dice</button>
+
+    <p id="nofunds"></p>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
